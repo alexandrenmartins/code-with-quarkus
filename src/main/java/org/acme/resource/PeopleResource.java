@@ -43,7 +43,7 @@ public class PeopleResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Uni<Response> findByName(@QueryParam("search") String search) {
 
-        String pattern = "^"+search;
+        //String pattern = "^"+search;
 
         if(search == null || search.length() == 0){
 
